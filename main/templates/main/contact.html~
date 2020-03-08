@@ -1,0 +1,49 @@
+{% extends 'main/base.html' %}
+{% load staticfiles %}
+  
+
+{% block content %}
+
+
+	   <!-- subscribe
+   	================================================== -->
+  		<section id="subscribe">
+               
+         <div class="row subscribe-content">
+            <div class="col-twelve">
+
+               <h2 class="h01 animate-this">Stay upto date, join our newsletter</h2>
+               <form id="mc-form" class="group" novalidate="true" autocomplete="off">
+
+               	<div class="row">
+               		<div class="col-eight tab-full left animate-this" data-animate="fadeInLeft">					
+			   				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter Your Name" required="">			   				
+			   			</div>
+			   			<div class="col-eight tab-full left animate-this" data-animate="fadeInLeft">					
+			   				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter Your Email" required="">			   				
+			   			</div>
+			   			<div class="col-eight tab-full left animate-this" data-animate="fadeInLeft">	
+			   				<textarea name="enquiry" id="message" id="form-message" rows="5" required="required" placeholder="Message"></textarea>
+			   			</div>
+			   			<br />
+
+				   		<div class="col-four tab-full right animate-this"  data-animate="fadeInRight">
+				   			<input type="submit" value="Get Notified" name="subscribe" class="button large">
+				   		</div>				   		
+               	</div> <!-- /row -->	
+
+               	<label for="mce-EMAIL" class="subscribe-message"></label>					
+					
+					</form>
+            
+            </div>
+         </div>
+                
+      </section> <!-- /subscribe -->
+      
+      
+
+
+
+
+{% endblock content %}

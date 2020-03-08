@@ -1,0 +1,224 @@
+{% extends 'main/base.html' %}
+{% load staticfiles %}
+  
+
+{% block content %}
+
+
+
+
+		<!-- main content wrap
+   	================================================== -->
+   	<section id="intro" style="height:800px;">
+
+		   <!-- <div class="shadow-overlay"></div> -->
+		   
+		   <div class="row intro-content">
+		   	<div class="col-twelve">
+
+		   		<h3 class="animate-intro">Introducing RollyKings</h3>
+			  		
+					<h1 class="animate-intro">
+						The perfect spot to relax, party, swim, work-out and meet friends
+						
+					</h1>	
+					<h3 class="lead">We are located at limker, badagry lagos.</h3><br />
+					
+					<div class="buttons action">
+						<a class="button stroke smoothscroll animate-intro" href="#features" title="">Features</a>
+						<a class="button stroke smoothscroll animate-intro" href="#pricing" title="">Pricing</a>
+					</div>					
+
+			  	</div> <!-- /twelve --> 		   			
+		   </div> <!-- /row -->   
+
+		</section> <!-- /intro -->
+		
+		
+		
+		
+		
+		
+
+		<!-- features
+   	================================================== -->
+		<section id="pricing">
+
+			<div class="row section-intro group animate-this">	
+	   		<div class="col-twelve with-bottom-line">
+
+	   			<h2 class="">Features You'll Love.</h2>
+
+	   		</div>   		
+	   	</div>
+
+			<div class="row features-wrap jumbotron">
+					     		
+				<div class="features-list block-1-3 block-s-1-2 block-tab-full">
+
+					<div class="bgrid feature animate-this">	
+    
+
+					   <div class="feature-content">
+
+              	   	<h3>Swimming Pool</h3>
+
+							<img src="{% static 'main/images/swim.jpg' %}" />
+						         		
+						</div> 	         	 
+
+					</div> <!-- /bgrid -->
+
+
+					<div class="bgrid feature animate-this">	
+   
+
+					   <div class="feature-content">
+
+              	   	<h3>Hotel and Suites</h3>
+
+							<img src="{% static 'main/images/intro-bgd.jpg' %}" />
+						         		
+						</div> 	         	 
+
+					</div> <!-- /bgrid -->
+
+					<div class="bgrid feature animate-this">	
+       
+
+					   <div class="feature-content">
+
+              	   	<h3>Executive Lounge</h3>
+
+							<img src="{% static 'main/images/lounge.jpg' %}" />
+						         		
+						</div> 	         	 
+
+					</div> <!-- /bgrid -->
+					
+				</div> <!-- /features-list --> 				
+
+			</div> <!-- /features-wrap -->
+			
+		</section> <!-- /features -->
+
+
+
+		<!-- pricing
+   	================================================== -->
+		<section id="features">
+
+	   	<div class="row section-intro animate-this">
+	   		<div class="col-twelve with-bottom-line">
+
+	   			<h2>Plans and Pricing.</h2>
+
+	   			<p class="lead">We have the best prices to match your budget.</p>
+	   			<p class="lead">RollyKings got you covered for your meetings, birthdays, hangouts and more at affordable and reasonable charges!.</p>
+
+	   		</div>   		
+	   	</div>
+
+	   	<div class="row pricing-content">
+
+	         <div class="pricing-tables block-1-3  group">
+
+	            <div class="bgrid animate-this"> 
+
+	            	<div class="price-block">
+
+	            		<div class="top-part">
+
+		            		<h3 class="plan-title">Swinming</h3>
+			               <p class="plan-price"><sup>N</sup>500</p>
+			               <p class="price-month">Per 2hours</p>		             
+
+		            	</div>                
+
+		               <div class="bottom-part">
+
+		            		<ul class="features">
+			                  <li><strong>free</strong> towels</li>
+			                  <li><strong>paid</strong> male trunchs</li>		                  
+			                  <li><strong>paid</strong>female trunchs</li>		                  
+			                  <li><strong>paid</strong> swimming lessons</li>
+			               </ul>
+
+			               <a class="button large" href="{% url 'main:contact' %}">Get Started</a>
+
+		            	</div>
+
+	            	</div>           	
+	                        
+				   </div> <!-- /bgrid -->
+
+	            <div class="bgrid animate-this">
+
+	            	<div class="price-block primary" data-info="popular">
+
+	            		<div class="top-part">
+
+		            		<h3 class="plan-title">Executive Meetings</h3>
+			               <p class="plan-price"><sup>Negotiable</sup></p>
+			               <p class="price-month">Per hour</p>							
+
+		            	</div>               
+
+		               <div class="bottom-part">
+
+		            		<ul class="features">
+			                  <li><strong>multiple</strong> Lounge</li>
+			                  <li><strong>standard</strong> office</li>		                  
+			                  <li><strong>free</strong> wifi</li>		                  
+			                  <li><strong>paid</strong> eatery</li>
+			               </ul>
+
+			               <a class="button large" href="{% url 'main:contact' %}">Get Started</a>
+
+		            	</div>
+	            		
+	            	</div>            	                 
+
+				  </div> <!-- /bgrid -->
+
+	           <div class="bgrid animate-this">               
+
+	               <div class="price-block">
+
+	            		<div class="top-part">
+
+		            		<h3 class="plan-title">Gym Service</h3>
+			               <p class="plan-price"><sup>N</sup>1000</p>
+			               <p class="price-month">Per week</p>	                		               
+
+		            	</div> 
+		            	
+							<div class="bottom-part">
+
+		            		<ul class="features">
+			                  <li><strong>free</strong> towels</li>
+			                  <li><strong>paid</strong> drinks</li>		                  
+			                  <li><strong>paid</strong> swimming</li>		                  
+			                  <li><strong>free</strong> machinery</li>
+			               </ul>
+
+			               <a class="button large" href="{% url 'main:contact' %}">Get Started</a>
+
+		            	</div>	            		                
+	            		
+	            	</div>                              
+
+				   </div> <!-- /bgrid -->		           
+
+	         </div> <!-- /pricing-tables --> 
+
+	      </div> <!-- /pricing-content --> 
+
+	   </section> <!-- Pricing -->
+		
+   
+   </div> <!-- /main-content-wrap -->
+
+
+
+{% endblock content %}
